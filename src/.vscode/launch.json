@@ -5,7 +5,7 @@
    "version": "0.2.0",
    "configurations": [
         {
-            "name": ".NET Core Launch (console)",
+            "name": ".NET Core Launch - Delegates",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
@@ -13,6 +13,19 @@
             "program": "${workspaceFolder}/console/expression/Palani.Expression.Console/bin/Debug/netcoreapp3.1/Palani.Expression.Console.dll",
             "args": [],
             "cwd": "${workspaceFolder}/console/expression/Palani.Expression.Console",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Launch - Yield",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/Palani.Yield/bin/Debug/netcoreapp3.1/Palani.Yield.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Palani.Yield",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
