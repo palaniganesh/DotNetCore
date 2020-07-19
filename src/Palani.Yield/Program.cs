@@ -52,7 +52,6 @@ namespace Palani.Yield
 
         static void Main(string[] args)
         {
-            /*
             FillValues();
             foreach(var i in MyList)
             {
@@ -67,7 +66,7 @@ namespace Palani.Yield
             {
                 Console.WriteLine($"Running total is {i}");
             }
-            */
+
             GenerateFibonacci(10);
         }
     }
